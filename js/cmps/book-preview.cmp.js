@@ -17,7 +17,7 @@ export default {
     },
     methods: {
         imgUrl() {
-            return`../../img/${this.book.thumbnail}`
+            return`img/${this.book.thumbnail}`
         }
     },
 }
