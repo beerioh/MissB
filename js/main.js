@@ -7,6 +7,7 @@ import homePage from './views/home-page.cmp.js'
 import aboutPage from './views/about-page.cmp.js'
 import bookDetails from './views/book-details.cmp.js'
 import bookEditCmp from './views/book-edit.cmp.js'
+import bookAddCmp from './views/book-add.cmp.js'
 
 import appHeader from './cmps/app-header.cmp.js'
 import appFooter from './cmps/app-footer.cmp.js'
@@ -45,6 +46,10 @@ const routerOptions = {
         {
             path: '/book/edit/:id?',
             component: bookEditCmp
+        },
+        {
+            path: '/book/add',
+            component: bookAddCmp
         },
         {
             path: '/about',
